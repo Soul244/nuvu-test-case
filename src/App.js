@@ -42,7 +42,7 @@ class App extends React.Component {
       textList: [
         ...prevState.textList.slice(0, index),
         {
-          ...prevState.textList[0],
+          ...prevState.textList[index],
           x,
           y,
         },
